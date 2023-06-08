@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>This flow will update the account for contacts created with self-registration in the Experience Cloud site.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>varF_FirstName_LastName_Family</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.FirstName}&amp;&quot; &quot;&amp;{!$Record.LastName}&amp;&quot; &quot;&amp;&quot;Family&quot;</expression>
+    </formulas>
+    <interviewLabel>RT - Update account for contact created in portal {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RT - Update account for contact created in portal</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Create a household account for the contacts created through the Experience Cloud site.</description>
+        <name>Create_Household_Account</name>
+        <label>Create Household Account</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <connector>
+            <targetReference>Update_HH_Account_to_Partner_Account</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>varF_FirstName_LastName_Family</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <stringValue>0124x000001WmfyAAC</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordDeletes>
+        <description>This will delete the Affiliation record that is created for the contact.</description>
+        <name>Delete_Affiliation_Record</name>
+        <label>Delete Affiliation Record</label>
+        <locationX>176</locationX>
+        <locationY>695</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>npe5__Contact__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <object>npe5__Affiliation__c</object>
+    </recordDeletes>
+    <recordUpdates>
+        <description>Update contact&#39;s account from the Self-Registration account to newly created Household Account</description>
+        <name>Update_Contact_s_Account</name>
+        <label>Update Contact&#39;s Account</label>
+        <locationX>176</locationX>
+        <locationY>575</locationY>
+        <connector>
+            <targetReference>Delete_Affiliation_Record</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Create_Household_Account</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_HH_Account_to_Partner_Account</name>
+        <label>Update HH Account to Partner Account</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>Update_Contact_s_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Create_Household_Account</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>IsPartner</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Create_Household_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0017j00000uXGeRAAW</stringValue>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>vSelfRegAcct</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Self-Registration Account</stringValue>
+        </value>
+    </variables>
+</Flow>

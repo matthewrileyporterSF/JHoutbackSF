@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JHAcctID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>JHID for Accounts</description>
+    <externalId>true</externalId>
+    <inlineHelpText>This is the JHID for Accounts</inlineHelpText>
+    <label>JHID - Account</label>
+    <length>6</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

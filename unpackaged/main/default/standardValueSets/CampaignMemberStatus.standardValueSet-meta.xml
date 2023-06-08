@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Asked</fullName>
+        <default>false</default>
+        <label>Asked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gift Received</fullName>
+        <default>false</default>
+        <label>Gift Received</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planned</fullName>
+        <default>false</default>
+        <label>Planned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pledged</fullName>
+        <default>false</default>
+        <label>Pledged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Received</fullName>
+        <default>false</default>
+        <label>Received</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered Volunteer</fullName>
+        <default>false</default>
+        <label>Registered Volunteer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Summer FUP Call</fullName>
+        <default>false</default>
+        <label>Summer FUP Call</label>
+    </standardValue>
+</StandardValueSet>

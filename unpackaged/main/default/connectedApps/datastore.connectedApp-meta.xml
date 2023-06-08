@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ryans@veracitek.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Custom/Screen_Blue/icon.svg</iconUrl>
+    <label>Datastore</label>
+    <logoUrl>https://login.salesforce.com/logos/Custom/Screen_Blue/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>sfdc://oauth/jwt/success</callbackUrl>
+        <certificate>MIIC/zCCAecCFCdbgcvWH9ca3mJplZoByUOaycCpMA0GCSqGSIb3DQEBCwUAMDwxCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApTb21lLVN0YXRlMRgwFgYDVQQKDA9WZXJhY2lUZWssIEluYy4wHhcNMjEwOTIzMTM1NDQ5WhcNMjIwOTIzMTM1NDQ5WjA8MQswCQYDVQQGEwJVUzETMBEGA1UECAwKU29tZS1TdGF0ZTEYMBYGA1UECgwPVmVyYWNpVGVrLCBJbmMuMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1DK20w9Cit8LuwR0n8JBjY2cPnMM39s8t33JCBQwUww/p/rex0fxdtjDy9WLEYETthDiiWSxEUvRP6HgCXAUEGc0kEpfV5oaKQnLuELrUCkBtDr1M3IuYjuiFSbLbHbVT4UVSDciqaJ+iE5xZanRJfxs5jcSgJewkGjHpFwJH9pHPVuIqf5mI9bj6GHTuaG3rbvnWe5sezldYwOQxorLM5uceO+tg5kHXA6Y+XS54r4j4Lpx8E0xsYSnq9ASjmzlL2zB9ty/dgrf8xE/6EgCeVgnDj64/tcamFHvkVHEdBq7b8JZF0USf9ZCfo25Ir7SfgCR7JIVuOpF4L5RF4/qkwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAzy+yG4MEwzAIUej3ZuMg7wftHDSR6OBRpObDroDy8zDo1PWr4bcFTg44IKIQoPtzmKLTog8EXxF9725oeJ4/aqLPIWzMPHsFovav7sgSDxqXVQiwI9aWiQ4RbqSAmKxJsT8zY1tCcLp1IErHWjBIpb7VKb/QJjzcQzXeN0y5x9vFmBLGDBRTZrRUXMeYYXZD0GApEV0V7gjcH6voPgid9pONLPDBhZoTgmzBjGXuXfjkQL9dzQtPq7vD7E7Cj0TPhaZADGL90mp4CQrW19lScsb7CB9iYZ26ASYRtavdcS1Vqtsv5DxETl6Yzt8QQzzDH45U9oG2qG6Z8X8IGlmAM</certificate>
+        <consumerKey>3MVG9M6Iz6p_Vt2xTZYciaJsvx2anXXOA5Zc0UuMrEnO8fVw5yblhMr3bfTl1RHkqX_5RVqduxjv2FVXbq1o4</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>Content</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <refreshTokenPolicy>zero</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

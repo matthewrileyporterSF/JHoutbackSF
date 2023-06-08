@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Sponsorship Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sponsorship Information --></label>
+            <section>Sponsorship Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Deliverable</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Donation Received --></description>
+        <label><!-- Donation --></label>
+        <name>Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type used for Giving Tree Sponsorship donations --></description>
+        <label><!-- Giving Tree Sponsorship --></label>
+        <name>Giving_Tree_Sponsorship</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Grant Received --></description>
+        <label><!-- Grant --></label>
+        <name>Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Goods or Services received as In-Kind --></description>
+        <label><!-- In-Kind Gift --></label>
+        <name>InKindGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Large Donation from a Major Donor --></description>
+        <label><!-- Major Gift --></label>
+        <name>MajorGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Matching Donation from an Donor&apos;s Employer or other Organization --></description>
+        <label><!-- Matching Gift --></label>
+        <name>MatchingGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A membership record type --></description>
+        <label><!-- Membership --></label>
+        <name>Membership</name>
+    </recordTypes>
+</CustomObjectTranslation>

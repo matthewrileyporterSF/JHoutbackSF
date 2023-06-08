@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_has_served_in__c</fullName>
+    <externalId>false</externalId>
+    <label>What area(s) have you served in before?</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

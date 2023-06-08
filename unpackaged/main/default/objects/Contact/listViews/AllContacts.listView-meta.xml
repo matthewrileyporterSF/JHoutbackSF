@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Account.npo02__LastCloseDate__c</columns>
+    <columns>Account.npo02__OppAmountThisYear__c</columns>
+    <columns>Account.npo02__OppAmountLastYear__c</columns>
+    <columns>npo02__LastCloseDate__c</columns>
+    <columns>npo02__Soft_Credit_Last_Year__c</columns>
+    <columns>npo02__Soft_Credit_This_Year__c</columns>
+    <columns>npo02__OppAmountLastYear__c</columns>
+    <columns>npo02__OppAmountThisYear__c</columns>
+    <columns>npo02__OppAmountLastYearHH__c</columns>
+    <columns>npo02__OppAmountThisYearHH__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Contacts</label>
+</ListView>

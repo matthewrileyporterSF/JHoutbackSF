@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plan to Book Own Lodging? --></label>
+        <name>Plan_to_Book_Own_Lodging__c</name>
+        <picklistValues>
+            <masterLabel>I plan to book a hotel, or have alternate lodging</masterLabel>
+            <translation><!-- I plan to book a hotel, or have alternate lodging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I would like to request to stay on site</masterLabel>
+            <translation><!-- I would like to request to stay on site --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

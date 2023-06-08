@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Second_choice_to_serve_in__c</fullName>
+    <description>What is the second preferred area that the volunteer would like to serve in?</description>
+    <externalId>false</externalId>
+    <label>What is your second choice to serve in?</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Wherever Needed</fullName>
+                <default>false</default>
+                <label>Wherever Needed</label>
+            </value>
+            <value>
+                <fullName>Activities</fullName>
+                <default>false</default>
+                <label>Activities</label>
+            </value>
+            <value>
+                <fullName>Agape</fullName>
+                <default>false</default>
+                <label>Agape</label>
+            </value>
+            <value>
+                <fullName>Event Clean Up</fullName>
+                <default>false</default>
+                <label>Event Clean Up</label>
+            </value>
+            <value>
+                <fullName>Event Set-up &amp; Logistics (Everyone)</fullName>
+                <default>false</default>
+                <label>Event Set-up &amp; Logistics (Everyone)</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>Food Service</fullName>
+                <default>false</default>
+                <label>Food Service</label>
+            </value>
+            <value>
+                <fullName>- Grounds &amp; Facilities</fullName>
+                <default>false</default>
+                <label>- Grounds &amp; Facilities</label>
+            </value>
+            <value>
+                <fullName>Guest Registration &amp; Greeting</fullName>
+                <default>false</default>
+                <label>Guest Registration &amp; Greeting</label>
+            </value>
+            <value>
+                <fullName>Photography</fullName>
+                <default>false</default>
+                <label>Photography</label>
+            </value>
+            <value>
+                <fullName>Prayer</fullName>
+                <default>false</default>
+                <label>Prayer</label>
+            </value>
+            <value>
+                <fullName>Tent Set-up</fullName>
+                <default>false</default>
+                <label>Tent Set-up</label>
+            </value>
+            <value>
+                <fullName>Valet &amp; Transportation</fullName>
+                <default>false</default>
+                <label>Valet &amp; Transportation</label>
+            </value>
+            <value>
+                <fullName>Volunteer Registration</fullName>
+                <default>false</default>
+                <label>Volunteer Registration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

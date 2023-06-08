@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <description>Send invoice to the guests when they register for an event and their status is unpaid.</description>
+    <environments>Default</environments>
+    <interviewLabel>Send invoice to guest {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send invoice to guest</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>bt_stripe__Payment_Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Unpaid</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>bt_stripe__Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Ready To Bill</stringValue>
+            </value>
+        </filters>
+        <object>bt_stripe__Sales_Document__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>InvalidDraft</status>
+</Flow>

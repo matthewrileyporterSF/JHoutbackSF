@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- JH Outback Development --></label>
+        <name>JH_Outback_Development</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- JH Ranch California --></label>
+        <name>JHEA</name>
+    </customApplications>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Done</name>
+                </fields>
+                <name>Completion_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Latitude2</name>
+                </fields>
+                <fields>
+                    <name>Longitude2</name>
+                </fields>
+                <fields>
+                    <name>Radius_in_Miles</name>
+                </fields>
+                <name>Find_radius</name>
+            </screens>
+        </flows>
+        <fullName>Account_Radius_Test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Assign_Community_Permission_Set</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Case_Closed_Confirmation_Email_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Case_Notification_to_Owner</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>FlowCompleted</name>
+                </fields>
+                <name>Completion_Message</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Done</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableData</name>
+                        <value />
+                    </inputParameters>
+                    <name>FoundContacts</name>
+                </fields>
+                <name>Completion_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Latitude2</name>
+                </fields>
+                <fields>
+                    <name>Location_Name</name>
+                </fields>
+                <fields>
+                    <name>Longitude2</name>
+                </fields>
+                <fields>
+                    <name>Radius_in_Miles</name>
+                </fields>
+                <name>Find_radius</name>
+            </screens>
+        </flows>
+        <fullName>Contact_Radius_Create_Radius_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>RT_Update_account_for_contact_created_in_portal</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Send_invoice_to_guest</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Contact_Record_when_User_updates_in_Experience_Cloud</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Participant_Releases_checkbox</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Send_e_mail_about_hanges</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Donation --></label>
+        <name>New_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Donation Opportunity --></label>
+        <name>New_Donation_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Grant --></label>
+        <name>New_Grant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Household --></label>
+        <name>New_Household_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Organization --></label>
+        <name>New_Organization</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

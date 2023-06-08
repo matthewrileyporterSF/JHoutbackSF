@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Area To Serve In (1st Choice) --></label>
+        <name>Area_To_Serve_In_1st_Choice__c</name>
+        <picklistValues>
+            <masterLabel>Activities</masterLabel>
+            <translation><!-- Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agape</masterLabel>
+            <translation><!-- Agape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Clean Up</masterLabel>
+            <translation><!-- Event Clean Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Set-up &amp; Logistics (Everyone)</masterLabel>
+            <translation><!-- Event Set-up &amp; Logistics (Everyone) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow Up</masterLabel>
+            <translation><!-- Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Service</masterLabel>
+            <translation><!-- Food Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grounds &amp; Facilities</masterLabel>
+            <translation><!-- Grounds &amp; Facilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest Registration &amp; Greeting</masterLabel>
+            <translation><!-- Guest Registration &amp; Greeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photography</masterLabel>
+            <translation><!-- Photography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prayer</masterLabel>
+            <translation><!-- Prayer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tent Set-up</masterLabel>
+            <translation><!-- Tent Set-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valet &amp; Transportation</masterLabel>
+            <translation><!-- Valet &amp; Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer Registration</masterLabel>
+            <translation><!-- Volunteer Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wherever Needed</masterLabel>
+            <translation><!-- Wherever Needed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

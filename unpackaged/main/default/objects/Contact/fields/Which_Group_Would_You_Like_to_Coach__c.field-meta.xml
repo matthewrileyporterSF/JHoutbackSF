@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_Group_Would_You_Like_to_Coach__c</fullName>
+    <description>Which group would you like to coach?</description>
+    <externalId>false</externalId>
+    <label>Which Group Would You Like to Coach?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fathers</fullName>
+                <default>false</default>
+                <label>Fathers</label>
+            </value>
+            <value>
+                <fullName>Mothers</fullName>
+                <default>false</default>
+                <label>Mothers</label>
+            </value>
+            <value>
+                <fullName>Sons</fullName>
+                <default>false</default>
+                <label>Sons</label>
+            </value>
+            <value>
+                <fullName>Daughters</fullName>
+                <default>false</default>
+                <label>Daughters</label>
+            </value>
+            <value>
+                <fullName>Husband &amp; Wife</fullName>
+                <default>false</default>
+                <label>Husband &amp; Wife</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

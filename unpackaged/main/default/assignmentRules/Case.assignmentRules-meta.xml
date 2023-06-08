@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>JH Outback Case Assignment Rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>JH_Outback_Case_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Web</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email</value>
+            </criteriaItems>
+            <template>unfiled$public/New_Help_Ticket</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

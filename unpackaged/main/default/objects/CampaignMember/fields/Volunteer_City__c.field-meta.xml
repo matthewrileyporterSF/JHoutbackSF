@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer_City__c</fullName>
+    <description>Which city will the volunteer assist in?</description>
+    <externalId>false</externalId>
+    <label>Volunteer City</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JH Outback Atlanta</fullName>
+                <default>false</default>
+                <label>JH Outback Atlanta</label>
+            </value>
+            <value>
+                <fullName>JH Outback Auburn</fullName>
+                <default>false</default>
+                <label>JH Outback Auburn</label>
+            </value>
+            <value>
+                <fullName>JH Outback Birmingham</fullName>
+                <default>false</default>
+                <label>JH Outback Birmingham</label>
+            </value>
+            <value>
+                <fullName>JH Outback Greensboro</fullName>
+                <default>false</default>
+                <label>JH Outback Greensboro</label>
+            </value>
+            <value>
+                <fullName>JH Outback Jackson</fullName>
+                <default>false</default>
+                <label>JH Outback Jackson</label>
+            </value>
+            <value>
+                <fullName>JH Outback Nashville</fullName>
+                <default>false</default>
+                <label>JH Outback Nashville</label>
+            </value>
+            <value>
+                <fullName>JH Outback Cincinnati</fullName>
+                <default>false</default>
+                <label>JH Outback Cincinnati</label>
+            </value>
+            <value>
+                <fullName>JH Outback Huntsville</fullName>
+                <default>false</default>
+                <label>JH Outback Huntsville</label>
+            </value>
+            <value>
+                <fullName>JH Outback Mobile</fullName>
+                <default>false</default>
+                <label>JH Outback Mobile</label>
+            </value>
+            <value>
+                <fullName>JH Outback Tuscaloosa</fullName>
+                <default>false</default>
+                <label>JH Outback Tuscaloosa</label>
+            </value>
+            <value>
+                <fullName>JH Outback Houston</fullName>
+                <default>false</default>
+                <label>JH Outback Houston</label>
+            </value>
+            <value>
+                <fullName>JH Outback California</fullName>
+                <default>false</default>
+                <label>JH Outback California</label>
+            </value>
+            <value>
+                <fullName>JH Outback Palm Beach</fullName>
+                <default>false</default>
+                <label>JH Outback Palm Beach</label>
+            </value>
+            <value>
+                <fullName>JH Outback University Palm Beach</fullName>
+                <default>false</default>
+                <label>JH Outback University Palm Beach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Which Group Would You Like to Coach? --></label>
+        <name>Which_Group_Would_You_Like_to_Coach__c</name>
+        <picklistValues>
+            <masterLabel>Daughters</masterLabel>
+            <translation><!-- Daughters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fathers</masterLabel>
+            <translation><!-- Fathers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husband &amp; Wife</masterLabel>
+            <translation><!-- Husband &amp; Wife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mothers</masterLabel>
+            <translation><!-- Mothers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sons</masterLabel>
+            <translation><!-- Sons --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

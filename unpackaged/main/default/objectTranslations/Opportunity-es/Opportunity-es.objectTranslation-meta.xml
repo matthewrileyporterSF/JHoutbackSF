@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Sponsorship Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sponsorship Information --></label>
+            <section>Sponsorship Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Deliverable</name>
+    </quickActions>
+    <recordTypes>
+        <description>Donación recibida</description>
+        <label>Donación</label>
+        <name>Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type used for Giving Tree Sponsorship donations --></description>
+        <label><!-- Giving Tree Sponsorship --></label>
+        <name>Giving_Tree_Sponsorship</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Beca recibida</description>
+        <label>Beca</label>
+        <name>Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bienes o servicios recibidos como en especie</description>
+        <label>Regalo en especie</label>
+        <name>InKindGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Donación de gran calibre de un donante importante</description>
+        <label>Regalo importante</label>
+        <name>MajorGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Donación complementaria procedente del empleador de un donante u otra organización</description>
+        <label>Regalo que iguala</label>
+        <name>MatchingGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Un tipo de registro de afiliación</description>
+        <label>Afiliación</label>
+        <name>Membership</name>
+    </recordTypes>
+</CustomObjectTranslation>
